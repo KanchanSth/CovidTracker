@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
 
 class DetailScreen extends StatefulWidget {
-  String name, image;
-  int totalCases, totalDeaths, totalRecovered;
-  DetailScreen(
-      {super.key,
-      required this.name,
-      required this.image,
-      required this.totalCases,
-      required this.totalDeaths,
-      required this.totalRecovered});
+  String name;
+
+  DetailScreen({
+    super.key,
+    required this.name,
+  });
 
   @override
   State<DetailScreen> createState() => _DetailScreenState();
